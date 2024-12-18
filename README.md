@@ -1,0 +1,1 @@
+This repository demonstrates a common concurrency issue in Firebase Firestore when attempting to increment a counter. The `counterBug.js` file shows the incorrect implementation, which can lead to data loss due to race conditions. The corrected implementation using transactions is provided in `counterSolution.js`. This example is written in JavaScript.
